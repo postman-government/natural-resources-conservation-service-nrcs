@@ -1,0 +1,34 @@
+---
+name: Natural Resources Conservation Service (NRCS) API Resource Center
+description: This is a toolbox of API collections, visualizations, and tooling to help developers discover and put APIs to work as part of integrations and applications. Providing a single landing page, documentation, and Postman collections that can be easily run using the Postman platform.
+image: https://postman-toolboxes2.s3.amazonaws.com/assets/postman-government.png
+tags:
+- APIs
+created: '2020-08-07'
+modified: '2020-08-07'
+url: apis.json
+specificationVersion: '0.14'
+apis:
+- name: Example API
+  description: This is an example API so that there is something in here when we publish this toolbox.
+  image: https://example.com/image.png
+  tags:
+  - API
+  properties:
+  - type: x-website
+    url: https://example.com
+  - type: x-postman-documentation
+    url: https://documenter.getpostman.com/view/[token]
+  - type: x-run-in-postman
+    url: https://app.getpostman.com/run-collection/[token]
+  - type: x-rating
+    x-data:
+      rating: 8
+  contact:
+  - FN: API Evangelist
+    email: info@apievangelist.com
+    x-Tweets: apievangelist
+maintainers:
+- FN: API Evangelist
+  x-Tweets: apievangelist
+  email: info@apievangelist
